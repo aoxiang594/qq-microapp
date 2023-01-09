@@ -3,7 +3,7 @@
 namespace Aoxiang\QqMicroApp;
 
 use Doctrine\Common\Cache\Cache;
-use Hanson\Foundation\Foundation;
+use Aoxiang\Foundation\Foundation;
 
 /**
  * Class TtMicroApp

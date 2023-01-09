@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Aoxiang\QqMicroApp;
+namespace Aoxiang\EasyQQ;
 
 
-use Hanson\Foundation\AbstractAccessToken;
+use Aoxiang\Foundation\AbstractAccessToken;
 
 class AccessToken extends AbstractAccessToken
 {
@@ -15,7 +15,7 @@ class AccessToken extends AbstractAccessToken
     /**
      * 从服务端获取 access token
      * @return mixed|void
-     * @throws \Hanson\Foundation\Exception\HttpException
+     * @throws \Aoxiang\Foundation\Exception\HttpException
      */
     public function getTokenFromServer()
     {
@@ -29,12 +29,12 @@ class AccessToken extends AbstractAccessToken
     /**
      * @param $result
      * @return mixed|void
-     * @throws QqMicroAppException
+     * @throws EasyQQException
      */
     public function checkTokenResponse($result)
     {
         if (isset($result['errcode']) && $result['errcode'] !== 0) {
-            throw new QqMicroAppException("获取 access token 失败：{$result['errmsg']}");
+            throw new EasyQQException("获取 access token 失败：{$result['errmsg']}");
         }
     }
 }

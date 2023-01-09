@@ -2,7 +2,7 @@
 
 namespace Aoxiang\QqMicroApp;
 
-use Hanson\Foundation\Http;
+use Aoxiang\Foundation\Http;
 
 class HttpClient extends Http
 {

@@ -1,5 +1,5 @@
 {
-    "name": "aoxiang/qq-microapp",
+    "name": "aoxiang/easyqq",
     "description": "QQ小程序sdk",
     "keywords": [
         "QQ小程序",
@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "hanson/foundation-sdk": "^5.0",
+        "aoxiang/foundation-sdk": "^5.0",
         "ext-json": "*",
         "php": ">=7.1",
         "ext-openssl": "*",
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Aoxiang\\QqMicroApp\\": "src/"
+            "Aoxiang\\EasyQQ\\": "src/"
         },
         "files": [
             "src/Support/helper.php"
@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aoxiang\\QqMicroApp\\LaravelServiceProvider"
+                "Aoxiang\\EasyQQ\\LaravelServiceProvider"
             ]
         }
     }
