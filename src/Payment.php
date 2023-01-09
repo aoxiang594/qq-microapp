@@ -1,19 +1,19 @@
 <?php
 
 
-namespace Qbhy\QqMicroApp;
+namespace Aoxiang\QqMicroApp;
 
 use GuzzleHttp\RequestOptions;
-use Qbhy\QqMicroApp\Support\Str;
-use Qbhy\QqMicroApp\Support\XML;
-use function Qbhy\QqMicroApp\Support\generate_sign;
-use function Qbhy\QqMicroApp\Support\get_client_ip;
-use function Qbhy\QqMicroApp\Support\get_encrypt_method;
+use Aoxiang\QqMicroApp\Support\Str;
+use Aoxiang\QqMicroApp\Support\XML;
+use function Aoxiang\QqMicroApp\Support\generate_sign;
+use function Aoxiang\QqMicroApp\Support\get_client_ip;
+use function Aoxiang\QqMicroApp\Support\get_encrypt_method;
 
 /**
  * Class Payment
  * @todo 未测试，商户申请还没通过
- * @package Qbhy\QqMicroApp
+ * @package Aoxiang\QqMicroApp
  */
 class Payment
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Qbhy\QqMicroApp;
+namespace Aoxiang\QqMicroApp;
 
 use GuzzleHttp\RequestOptions;
 
 /**
  * Class ContentSecurity
- * @package Qbhy\QqMicroApp
+ * @package Aoxiang\QqMicroApp
  * @link https://q.qq.com/wiki/develop/miniprogram/server/open_port/port_safe.html#security-mediacheckasync
  */
 class ContentSecurity

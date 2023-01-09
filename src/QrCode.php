@@ -1,11 +1,11 @@
 <?php
 
-namespace Qbhy\QqMicroApp;
+namespace Aoxiang\QqMicroApp;
 
 /**
  *
  * Class QrCode
- * @package Qbhy\TtMicroApp
+ * @package Aoxiang\TtMicroApp
  */
 class QrCode
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Qbhy\QqMicroApp\Support;
+namespace Aoxiang\QqMicroApp\Support;
 
 class Str
 {

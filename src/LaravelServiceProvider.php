@@ -1,6 +1,6 @@
 <?php
 
-namespace Qbhy\QqMicroApp;
+namespace Aoxiang\QqMicroApp;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
@@ -10,7 +10,7 @@ use Laravel\Lumen\Application as LumenApplication;
  *
  * @author  qbhy <96qbhy@gmail.com>
  *
- * @package Qbhy\BaiduAIP
+ * @package Aoxiang\BaiduAIP
  */
 class LaravelServiceProvider extends BaseServiceProvider
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Qbhy\QqMicroApp;
+namespace Aoxiang\QqMicroApp;
 
-use Qbhy\QqMicroApp\Support\AES;
-use Qbhy\QqMicroApp\Support\DecryptException;
+use Aoxiang\QqMicroApp\Support\AES;
+use Aoxiang\QqMicroApp\Support\DecryptException;
 
 /**
  *
  * Class Decrypt
- * @package Qbhy\QqMicroApp
+ * @package Aoxiang\QqMicroApp
  */
 class Decrypt
 {

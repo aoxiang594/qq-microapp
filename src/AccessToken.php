@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Qbhy\QqMicroApp;
+namespace Aoxiang\QqMicroApp;
 
 
 use Hanson\Foundation\AbstractAccessToken;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Qbhy\QqMicroApp;
+namespace Aoxiang\QqMicroApp;
 
 /**
  * Class Factory
- * @package Qbhy\QqMicroApp
+ * @package Aoxiang\QqMicroApp
  */
 class Factory
 {

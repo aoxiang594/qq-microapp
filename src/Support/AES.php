@@ -10,7 +10,7 @@
  */
 
 
-namespace Qbhy\QqMicroApp\Support;
+namespace Aoxiang\QqMicroApp\Support;
 
 
 /**
